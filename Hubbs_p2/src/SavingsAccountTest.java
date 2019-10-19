@@ -8,7 +8,6 @@ class SavingsAccountTest
     @Test
     void instructionSpecifiedTest()
     {
-        //sdhgtr
         SavingsAccount saver1 = new SavingsAccount(2000);
         SavingsAccount saver2 = new SavingsAccount(3000);
         SavingsAccount.modifyInterestRate(.04);
